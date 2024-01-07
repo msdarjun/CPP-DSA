@@ -30,7 +30,7 @@ void insertNodes (node* &head, int val) {
 
 void printLL (node* head) {
     node* temp = head;
-    cout <<endl << "the reverserd LL is ";
+    cout << endl << "the reverserd LL is ";
     while (temp) {
         cout << temp->val <<" ";
         temp = temp->next;
